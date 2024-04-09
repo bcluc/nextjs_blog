@@ -1,0 +1,37 @@
+.container {
+  flex: 5;
+  flex-direction: column;
+  margin: 30px 40px 0px 0px;
+}
+
+.headTitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.title{
+  margin: 50px 0px;
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+  .headTitle {
+    font-size: 32px;
+  }
+  .container{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headTitle {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .headTitle {
+    font-size: 20px;
+  }
+}
