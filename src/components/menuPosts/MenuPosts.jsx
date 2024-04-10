@@ -3,9 +3,9 @@ import styles from "./menuPosts.module.css"
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const MenuPosts = ({withImage}) => {
+export const MenuPosts = ({ withImage }) => {
   return (
-<div className={styles.items}>
+    <div className={styles.items}>
       <Link href="/" className={styles.item}>
         {withImage && (
           <div className={styles.imageContainer}>
@@ -78,5 +78,6 @@ export const MenuPosts = ({withImage}) => {
           </div>
         </div>
       </Link>
-    </div>  )
+    </div>
+  )
 }
